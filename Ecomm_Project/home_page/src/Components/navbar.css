@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a default font family */
+}
+
+.navbar {
+    height: 62px;
+    width: 100%; /* Make navbar full width */
+    background: white;
+    color: #313131;
+    padding: 0 18px; /* Adjust padding */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 190px; /* Adjust width of logo area */
+}
+
+.logo {
+    background-image: url("../assets/rentomojo.png");
+    background-size: cover;
+    height: 50px;
+    width: 180px;
+    margin-left: 40px;
+}
+
+.nav-city {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 45px;
+}
+
+.nav-city select {
+    height: 35px;
+    width: 95px;
+    padding: 9px 0;
+    font-size: 13px;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-input {
+    height: 35px;
+    width: 500px;
+    padding: 0 40px 0 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(238, 239, 242);
+    font-size: 13px;
+}
+
+.search-input:hover{
+    background-color: white;
+}
+
+.search-input:focus {
+    outline: none; 
+    border-color: #3498db;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Adjust position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* Adjust icon color */
+    cursor: pointer; /* Optional: Add pointer cursor */
+    font-size: 0.75rem;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.nav-cart i {
+    font-size: 10px; 
+    margin-right: 2.5px; 
+}
+
+.input-cart {
+    height: 25px;
+    width: 100px; 
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/*.nav-cart .fas.fa-cart-shopping {
+    color: #999; 
+}*/
+
+.nav-login {
+    background-color: red;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-right: 25px; 
+    border-radius: 10px;
+    text-size-adjust: 10px;
+    border: 1px solid rgb(34, 1, 1);
+    border-radius: 5px;
+    color: rgb(190, 186, 186);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+/* button{
+    background-color: #f60d30;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: rgb(190, 186, 186);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+} */
+
+.nav-login:hover{
+    background-color: #ce1010;
+    color: #d2c9c9;
+    box-shadow: 0 0 10px rgba(151, 8, 8, 0.1); /* Adding a subtle box-shadow */
+}
+
+.nav-login:focus {
+    border: 1px solid #f20707; /* Red border on focus */
+}

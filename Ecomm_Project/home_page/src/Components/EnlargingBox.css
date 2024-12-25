@@ -1,0 +1,30 @@
+.enlarge-box {
+    width: 150px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.676);
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+    border-radius:30px;
+    /* Add other styles as needed */
+  }
+  
+  .enlarge-box:hover {
+    transform: scale(1.1); /* Enlarge by 10% on hover */
+    /* Add other hover styles if desired */
+  }
+  .card:hover {
+    transform: scale(1.1); /* Enlarge by 10% on hover */
+    /* Add other hover styles if desired */
+    background: rgb(241, 241, 234);
+  }
+
+  span.underline{
+    text-decoration:overline;
+    text-decoration-color: brown;
+  }
+
+  /* .inf{
+    background-color: grey;
+  } */
+  
+  
