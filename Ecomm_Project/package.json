@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "install": "^0.13.0",
     "react-webp-image": "^1.0.8",
     "slick-carousel": "^1.8.1"
   }
