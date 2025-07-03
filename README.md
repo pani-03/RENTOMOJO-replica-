@@ -3,7 +3,7 @@
 
 ## 🎬 Demo Preview
 
-![Demo](home_page/src/assets/demo2.gif)
+![Demo](Ecomm_Project/home_page/src/assets/demo2.gif)
 
  
 *Developed a fully responsive front page UI for a furniture rental websiteinspired by ‘Rentomojo’, utilizing HTML, CSS, JavaScript, React.js, and Node.js.*
