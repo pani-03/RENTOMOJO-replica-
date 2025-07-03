@@ -23,17 +23,16 @@
 Here are some screens from the app:
 
 ### 🏠 Homepage
-![sr1](home_page/src/assets/sr1.png)
+![sr1](Ecomm_Project/home_page/src/assets/sr1.png)
 
-### 📋 Product List
-![sr2](home_page/src/assets/sr2.png)
+![sr2](Ecomm_Project/home_page/src/assets/sr2.png)
 
 ### 🛒 Cart Page
-![sr3](home_page/src/assets/sr3.png)
+![sr3](Ecomm_Project/home_page/src/assets/sr3.png)
 
-### 📄 Product Details
-![sr4](home_page/src/assets/sr4.png)
+### 📄  ALL Product 
+![sr4](Ecomm_Project/home_page/src/assets/sr4.png)
 
-### ✅ Order Confirmation
-![sr5](home_page/src/assets/sr5.png)
+### ✅ Product Details
+![sr5](Ecomm_Project/home_page/src/assets/sr5.png)
 
